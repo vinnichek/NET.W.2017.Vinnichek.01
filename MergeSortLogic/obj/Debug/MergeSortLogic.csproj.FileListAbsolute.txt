@@ -1,0 +1,6 @@
+C:\Users\i vi\source\repos\Solution1\MergeSortLogic\bin\Debug\MergeSortLogic.dll
+C:\Users\i vi\source\repos\Solution1\MergeSortLogic\bin\Debug\MergeSortLogic.pdb
+C:\Users\i vi\source\repos\Solution1\MergeSortLogic\obj\Debug\MergeSortLogic.csproj.CoreCompileInputs.cache
+C:\Users\i vi\source\repos\Solution1\MergeSortLogic\obj\Debug\MergeSortLogic.dll
+C:\Users\i vi\source\repos\Solution1\MergeSortLogic\obj\Debug\MergeSortLogic.pdb
+C:\Users\i vi\source\repos\Solution1\MergeSortLogic\obj\Debug\MergeSortLogic.csprojResolveAssemblyReference.cache
