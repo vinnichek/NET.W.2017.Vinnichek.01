@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,18 +8,6 @@ namespace QuickSortLogic
 {
     public class ProgramQS
     {
-        public static void ArrayChecker(int[] unsortedArray)
-        {
-            if (unsortedArray == null)
-            {
-                throw new ArgumentNullException("Array is null.");
-            }
-            if (unsortedArray.Length == 0)
-            {
-                throw new ArgumentException("Array is empty.");
-            }
-        }
-
         public static void QuickSort(int[] unsortedArray)
         {
             ArrayChecker(unsortedArray);
@@ -55,7 +43,19 @@ namespace QuickSortLogic
             unsortedArray[i] = num; 
             QuickSort(unsortedArray, start, i - 1); 
             QuickSort(unsortedArray, i + 1, end); 
-        } 
+        }
+        
+        private static void ArrayChecker(int[] unsortedArray)
+        {
+            if (unsortedArray == null)
+            {
+                throw new ArgumentNullException("Array is null.");
+            }
+            if (unsortedArray.Length == 0)
+            {
+                throw new ArgumentException("Array is empty.");
+            }
+        }
     }
 }
 
