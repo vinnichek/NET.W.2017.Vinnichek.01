@@ -1,5 +1,0 @@
-C:\Users\i vi\source\repos\Solution1\QuickSortLogic\bin\Debug\QuickSortLogic.dll
-C:\Users\i vi\source\repos\Solution1\QuickSortLogic\bin\Debug\QuickSortLogic.pdb
-C:\Users\i vi\source\repos\Solution1\QuickSortLogic\obj\Debug\QuickSortLogic.csproj.CoreCompileInputs.cache
-C:\Users\i vi\source\repos\Solution1\QuickSortLogic\obj\Debug\QuickSortLogic.dll
-C:\Users\i vi\source\repos\Solution1\QuickSortLogic\obj\Debug\QuickSortLogic.pdb
