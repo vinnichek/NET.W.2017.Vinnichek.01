@@ -7,19 +7,7 @@ using System.Threading.Tasks;
 namespace MergeSortLogic
 {
     public class ProgramMS
-    {
-        public static void ArrayChecker(int[] unsortedArray)
-        {
-            if (unsortedArray == null)
-            {
-                throw new ArgumentNullException("Array is null.");
-            }
-            if (unsortedArray.Length == 0)
-            {
-                throw new ArgumentException("Array is empty.");
-            }
-        }
-
+    {  
         public static void MergeSort(int[] unsortedArray, int start, int end)
         { 
             if (start<end) 
@@ -84,6 +72,18 @@ namespace MergeSortLogic
              { 
                  unsortedArray[start + i] = tmp[i]; 
              } 
-        }  
+        } 
+        
+        private static void ArrayChecker(int[] unsortedArray)
+        {
+            if (unsortedArray == null)
+            {
+                throw new ArgumentNullException("Array is null.");
+            }
+            if (unsortedArray.Length == 0)
+            {
+                throw new ArgumentException("Array is empty.");
+            }
+        }
     }
 }
