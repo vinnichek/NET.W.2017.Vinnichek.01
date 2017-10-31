@@ -14,7 +14,6 @@ namespace QuickSortLogic
             QuickSort(unsortedArray, 0, unsortedArray.Length - 1); 
         }
 
-
         public static void QuickSort(int[] unsortedArray, int start, int end)
         {
             if (start >= end)
